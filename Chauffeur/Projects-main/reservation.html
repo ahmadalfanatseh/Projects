@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Reservation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+    
+
+  
+  </head>
+  <body>
+  <!-- ***** header ***** -->
+    <div class="header">
+        <a href="index.html">
+            <img src="imgs/CHAUFFEUR Logo - Original - 5000x5000.png" alt="logo image" class="logo" />            
+        </a>
+
+        <!-- Create Toggle Button -->
+        <input type="checkbox" id="chk">
+        <label for="chk" class="chk-btn">
+            <img src="imgs/bars.svg">
+        </label>
+
+        <ul class="menu">
+            <a href="index.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="services.html"> Services </a>
+            <a class="activ" href="reservation.html"> Reservation</a>
+            <a href="contact.html"> Contact </a>
+        </ul>
+    </div>
+
+    <div class="imagge">
+        <img src="imgs/AdobeStock_80181170.jpg" alt="Snow" style="width:100%;">
+        <div class="centered">
+            <h2>Reservation</h2><br><br>
+            <b>BOOK A JOURNEY</b>
+        </div>
+    </div>
+
+    <!-- Start Registration Form -->
+    <br><br>
+    <form class="form" method="POST" action="https://formsubmit.co/BoiseStateTaxi@gmail.com" >
+      <h1 class="text-center register">Registration Form</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="Your Info">
+        </div>
+        <div class="progress-step" data-title="Booking details"></div>
+        <div class="progress-step" data-title="Date & Time"></div>
+        <div class="progress-step" data-title="Confirmation"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group one">
+          <label class="username" for="username">Name</label>
+          <input type="text" name="username" id="username" />
+          <p class="usernameP">This field is required</p>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <p class="emailP">This field is required</p>
+          <p class="emailP2">Invalid Email</p>
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+          <p class="phoneP">This field is required</p>
+          <p class="phoneP2">Invalid Phone</p>
+        </div>
+        <div class="">
+          <a href="#" class="btnn btnn-next width-50 ml-auto">Next<i class="fa-solid fa-arrow-right icon-yamin"></i></a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="passengers">Number of passengers</label>
+          <input type="number" name="passengers" id="passengers" placeholder="1-7" min="1" max="7" required />
+          <p class="passengersP">This field is required</p>
+          <p class="passengersP2">Number of passengers Between 1 and 7</p>
+        </div>
+        <div class="input-group">
+          <label for="type-service">Type of Service Required</label>
+          <input type="text" name="type-service" id="type-service" required/>
+          <p class="serviceP">This field is required</p>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btnn btnn-prev"><i class="fa-solid fa-arrow-left icon-yassar"></i>Previous</a>
+          <a href="#" class="btnn btnn-next">Next<i class="fa-solid fa-arrow-right icon-yamin"></i></a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Date of Booking</label>
+          <input type="date" name="dob" id="dob" />
+          <p class="dateP">This field is required</p>
+          <p class="dateP2">Date entered is Invalid( Please make sure that your date is with in 12 hours of pick up time)</p>
+        </div>
+        <div class="input-group">
+          <label for="time">Time of Booking</label>
+          <input type="time" name="time" id="time" />
+          <p class="timeP">This field is required</p>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btnn btnn-prev"><i class="fa-solid fa-arrow-left icon-yassar"></i>Previous</a>
+          <a href="#" class="btnn btnn-next">Next<i class="fa-solid fa-arrow-right icon-yamin"></i></a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="conttt">
+          <!-- <h2>Confirmation Resarved</h2> -->
+          <p>Click to Confirm your Reservation</p>
+          <a href="index.html">Return to Home Page</a>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btnn btnn-prev"><i class="fa-solid fa-arrow-left icon-yassar"></i>Previous</a>
+          <input type="hidden" class="nex" name="_next" value="https://ahmadalfanatseh.github.io/FinalProjects/index.html">
+          <input type="submit" value="Confirmation" class="btnn subm"/>
+        </div>
+      </div>
+    </form>
+    <br><br>
+
+    <!-- End Registration Form -->
+
+  <!-- ***** Footer ***** -->
+  <hr>
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.facebook.com/" title="Link to Facebook Profile">
+            <img src="imgs/facebook.svg" class="cc footer__social-image" alt="Facebook">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/chauffeurid/" title="Link to Instagram Profile">
+            <img src="imgs/instagram.svg"  class="cc footer__social-image" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p class="ppp">
+        &copy; 2022 - Template designed & developed by <a href="https://www.facebook.com/"class="link">AHMAD</a>.
+      </p>
+    </div>
+  </footer>  
+  
+  
+  
+  <!-- Script JS -->
+  <script src="js/script.js"></script>
+
+
+    <script src="js/app.js"></script>
+    <!--jQuary Widget-->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/reservation.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+

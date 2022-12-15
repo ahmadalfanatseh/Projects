@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  
+  </head>
+  <body>
+      
+    <div class="header">
+        <a href="index.html">
+          <!-- haka bla backround aw biha f safahat lkherin -->
+            <img src="imgs/CHAUFFEUR Logo - Original - 5000x5000.png" alt="logo image" class="logo" />
+        </a>
+
+        <!-- Create Toggle Button -->
+        <input type="checkbox" id="chk">
+        <label for="chk" class="chk-btn">
+            <img src="imgs/bars.svg">
+        </label>
+
+        <ul class="menu">
+            <a class="activ" href="index.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="services.html"> Services </a>
+            <a href="reservation.html"> Reservation</a>
+            <a href="contact.html"> Contact </a>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Slider CBN -> khassah ketba 3ela tessawr -->
+        <div class="slider-container">
+            <div class="slides fade">
+                <div class="slider-image"><img src="imgs/AdobeStock_322625789.jpg" alt="background_1"></div>
+                <div class="centered">
+                  <h2>WHen you need</h2>
+                  <h2>A Good</h2>
+                  <b>first impression</b>
+                </div>
+            </div> <!-- slider -->
+            <div class="slides fade">
+                <div class="slider-image"><img src="imgs/AdobeStock_299004868.jpg" alt="background_2"></div>
+                  <div class="centered">
+                    <h2>WHen you need</h2>
+                    <h2>A Good</h2>
+                    <b>first impression</b>
+                </div>
+            </div> <!-- slider -->
+            <div class="slides fade">
+                <div class="slider-image"><img src="imgs/AdobeStock_194446941.jpg" alt="background_3"></div>
+                  <div class="centered">
+                    <h2>WHen you need</h2>
+                    <h2>A Good</h2>
+                    <b>first impression</b>
+                </div>
+            </div> <!-- slider -->
+            <div class="slides fade">
+                <div class="slider-image"><img src="imgs/s-class.jpg" alt="background_4"></div>
+                <div class="centered">
+                    <h2>WHen you need</h2>
+                    <h2>A Good</h2>
+                    <b>first impression</b>
+                </div>
+            </div> <!-- slider -->
+            <!-- Slider Next and Previous buttons -->
+            <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+            <a class="next" onclick="plusIndex(+1)">&#10095;</a>
+            <!-- Slider Selection Bullets -->
+            <div class="slider-bullets" id="slider-bullets">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dots" onclick="currentSlide(4)"></span>
+            </div> <!-- Slider Bullets -->
+        </div>   
+        <!-- END Slider-->
+
+    </main>
+ 
+      
+    <section>
+        <div class="content">
+            <div class="brdr">
+                <div class="one">
+                    <h1>BUSINESS</h1>
+                    <p>Busy executives are always seeking to maximize their time so using a professional chauffeur service not only makes sense but should be thought of as another tool to assist them to work efficiently and improve productivity.</p>
+                    <!-- <button class="btn"><span>Learn More</span></button> -->
+                    <a href="reservation.html"><button class="btn"><span>Learn More</span></button></a>
+                </div>
+                <div class="two">
+                    <img src="imgs/AdobeStock_199679780.jpg" alt="">
+                </div>    
+            </div>
+            <div class="brdr brdr-two">
+                <div class="three">
+                    <img src="imgs/AdobeStock_85046438.jpg" alt="">
+                </div>
+                <div class="four">
+                    <h1>PRIVATE</h1>
+                    <p>Regardless of if your going on holiday, planning a shopping trip or have a special occasion to celebrate, using the Royale Chauffeur Personal Travel Service will ensure your trip is relaxed, comfortable and memorable. There is no need to worry about trains, tubes or finding somewhere to park. No lugging shopping around and no rush!</p>
+                    <!-- <button class="btn"><span>Learn More</span> -->
+                    <a href="reservation.html"><button class="btn"><span>Learn More</span></button></a>
+                </div>
+            </div>
+            <div class="brdr">
+                <div class="five">
+                    <h1>EVENTS</h1>
+                    <p>Choose Royale Chauffeurs to look after your corporate or individual transport requirements to all the best events, throughout the UK. We can arrange multiple vehicles be it cars, MPVs or coaches.</p>
+                    <!-- <button class="btn"><span>Learn More</span> -->
+                    <a href="reservation.html"><button class="btn"><span>Learn More</span></button></a>
+                </div>
+                <div class="six">
+                    <img src="imgs/AdobeStock_7820613.jpg" alt="">
+                </div>
+            </div>
+            <div class="brdr brdr-two">
+                <div class="three">
+                    <img src="imgs/AdobeStock_196140715.jpg" alt="">
+                </div>
+                <div class="four">
+                    <h1>WEDDINGS</h1>
+                    <p>Your wedding day is one of the most special days of your life. Such a momentous occasion deserves a very special wedding car. Choosing Royale Chauffeurs guarantees the very best level of service for all wedding occasions.</p>
+                    <!-- <button class="btn"><span>Learn More</span> -->
+                    <a href="reservation.html"><button class="btn"><span>Learn More</span></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-two">
+      <h1>WHO DO WE <span>WORK FOR ?</span></h1>
+      <p>Since being established some 20 years ago this business has developed an enviable list of both corporate and private clients.</p>
+      <div class="container">
+        <div class="one">
+          <img src="imgs/logo_Nutricia.gif" alt="">
+        </div>
+        <div class="two">
+          <img src="imgs/parker_aerospace_2116x594-e1570647968198-removebg-preview.png" alt="">
+        </div>
+        <div class="three">
+          <img src="imgs/boeing_logo-e1570647996337.png" alt="">
+        </div>
+        <div class="four">
+          <img src="imgs/lloyds-tsb-logo_0-e1570647978355.png" alt="">
+        </div>
+        <div class="five">
+          <img src="imgs/imperial-brands-logo@2x.png" alt="">
+        </div>
+        <div class="sixe">
+          <img src="imgs/burgess_salmon_march_news_images-239aaf18-e1570648172407.png" alt="">
+        </div>
+        <div class="siven">
+          <img src="imgs/download-1-removebg-preview.png" alt="">
+        </div>
+        <div class="enght">
+          <img src="imgs/site-logo (1).png" alt="">
+        </div>
+      </div>
+    </div>
+
+  <!-- ***** Footer ***** -->
+    <hr>
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.facebook.com/" title="Link to Facebook Profile">
+            <img src="imgs/facebook.svg" class="cc footer__social-image" alt="Facebook">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/chauffeurid/" title="Link to Instagram Profile">
+            <img src="imgs/instagram.svg"  class="cc footer__social-image" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p class="ppp">
+        &copy; 2022 - Template designed & developed by <a href="https://www.facebook.com/"class="link">AHMAD</a>.
+      </p>
+    </div>
+  </footer>  
+  
+  
+  
+  
+  <!-- Script JS -->
+  <script src="./js/script.js"></script>
+   
+  </body>
+</html>
+
+
+
+
+
+
